@@ -52,6 +52,7 @@ class ProfileViewModel: ViewModelType {
                       ,information: infoObservable.asObservable())
     }
 
+    
     func changeSubTitle(subTitle: String?) {
         let newInfo = Information(imageName: self.info.imageName
                                   , name: self.info.name
