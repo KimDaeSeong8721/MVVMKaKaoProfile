@@ -9,21 +9,50 @@
 /* Begin PBXBuildFile section */
 		3508EE5628E6D26700449431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE5528E6D26700449431 /* AppDelegate.swift */; };
 		3508EE5828E6D26700449431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE5728E6D26700449431 /* SceneDelegate.swift */; };
-		3508EE5A28E6D26700449431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE5928E6D26700449431 /* ViewController.swift */; };
-		3508EE5D28E6D26700449431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3508EE5B28E6D26700449431 /* Main.storyboard */; };
 		3508EE5F28E6D26800449431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3508EE5E28E6D26800449431 /* Assets.xcassets */; };
 		3508EE6228E6D26800449431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3508EE6028E6D26800449431 /* LaunchScreen.storyboard */; };
+		3508EE6F28E6D37600449431 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE6E28E6D37600449431 /* Information.swift */; };
+		3508EE7E28E6D3BD00449431 /* MChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE7728E6D3BD00449431 /* MChangeViewController.swift */; };
+		3508EE7F28E6D3BD00449431 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE7828E6D3BD00449431 /* ProfileViewController.swift */; };
+		3508EE8328E6D3C500449431 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE8128E6D3C500449431 /* BaseViewController.swift */; };
+		3508EE8428E6D3C500449431 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE8228E6D3C500449431 /* BaseTableViewCell.swift */; };
+		3508EE8628E6D43B00449431 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE8528E6D43B00449431 /* FirstViewController.swift */; };
+		3508EE8B28E6D45600449431 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE8928E6D45600449431 /* FriendTableViewCell.swift */; };
+		3508EE8C28E6D45600449431 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE8A28E6D45600449431 /* PersonTableViewCell.swift */; };
+		3508EE8F28E6D53200449431 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE8E28E6D53200449431 /* DummyData.swift */; };
+		3508EE9328E6D55200449431 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE9228E6D55200449431 /* FirstViewModel.swift */; };
+		3508EE9928E6D81800449431 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE9828E6D81800449431 /* ViewModelType.swift */; };
+		3508EE9B28E6D8D100449431 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE9A28E6D8D100449431 /* ViewModelBindableType.swift */; };
+		3508EE9E28E71E9B00449431 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508EE9D28E71E9B00449431 /* ImageLabelView.swift */; };
+		35430F5D28E80D5800CA6348 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35430F5C28E80D5800CA6348 /* ProfileViewModel.swift */; };
+		C3AC43DAA4B2DD288A48AD74 /* Pods_MVVMKaKaoProfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B534CBE401B5887054445B6 /* Pods_MVVMKaKaoProfile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B08E7B386F6FF57115117A /* Pods-MVVMKaKaoProfile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMKaKaoProfile.release.xcconfig"; path = "Target Support Files/Pods-MVVMKaKaoProfile/Pods-MVVMKaKaoProfile.release.xcconfig"; sourceTree = "<group>"; };
+		0B534CBE401B5887054445B6 /* Pods_MVVMKaKaoProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMKaKaoProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3508EE5228E6D26700449431 /* MVVMKaKaoProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMKaKaoProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3508EE5528E6D26700449431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3508EE5728E6D26700449431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3508EE5928E6D26700449431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3508EE5C28E6D26700449431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3508EE5E28E6D26800449431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3508EE6128E6D26800449431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3508EE6328E6D26800449431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3508EE6E28E6D37600449431 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		3508EE7728E6D3BD00449431 /* MChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MChangeViewController.swift; sourceTree = "<group>"; };
+		3508EE7828E6D3BD00449431 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3508EE8128E6D3C500449431 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3508EE8228E6D3C500449431 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		3508EE8528E6D43B00449431 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3508EE8928E6D45600449431 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		3508EE8A28E6D45600449431 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		3508EE8E28E6D53200449431 /* DummyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		3508EE9228E6D55200449431 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		3508EE9828E6D81800449431 /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		3508EE9A28E6D8D100449431 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
+		3508EE9C28E71DD400449431 /* Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Example.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3508EE9D28E71E9B00449431 /* ImageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		35430F5C28E80D5800CA6348 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D1E14ADFD2D1936147360D8F /* Pods-MVVMKaKaoProfile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMKaKaoProfile.debug.xcconfig"; path = "Target Support Files/Pods-MVVMKaKaoProfile/Pods-MVVMKaKaoProfile.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AC43DAA4B2DD288A48AD74 /* Pods_MVVMKaKaoProfile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,8 @@
 			children = (
 				3508EE5428E6D26700449431 /* MVVMKaKaoProfile */,
 				3508EE5328E6D26700449431 /* Products */,
+				7DFA5E16BA8A9C9EBC5001C3 /* Pods */,
+				E6CF06664373F87F19B427C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,125 @@
 		3508EE5428E6D26700449431 /* MVVMKaKaoProfile */ = {
 			isa = PBXGroup;
 			children = (
-				3508EE5528E6D26700449431 /* AppDelegate.swift */,
-				3508EE5728E6D26700449431 /* SceneDelegate.swift */,
-				3508EE5928E6D26700449431 /* ViewController.swift */,
-				3508EE5B28E6D26700449431 /* Main.storyboard */,
-				3508EE5E28E6D26800449431 /* Assets.xcassets */,
-				3508EE6028E6D26800449431 /* LaunchScreen.storyboard */,
+				3508EE9728E6D81800449431 /* Protocol */,
+				3508EE8D28E6D52B00449431 /* Literal */,
+				3508EE8028E6D3C500449431 /* Base */,
+				3508EE6A28E6D32300449431 /* Model */,
+				3508EE6C28E6D32C00449431 /* View */,
+				3508EE6B28E6D32700449431 /* ViewModel */,
+				3508EE6928E6D31B00449431 /* Supoorts */,
+				3508EE6D28E6D34500449431 /* Resources */,
 				3508EE6328E6D26800449431 /* Info.plist */,
+				3508EE9C28E71DD400449431 /* Example.playground */,
 			);
 			path = MVVMKaKaoProfile;
+			sourceTree = "<group>";
+		};
+		3508EE6928E6D31B00449431 /* Supoorts */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE5528E6D26700449431 /* AppDelegate.swift */,
+				3508EE5728E6D26700449431 /* SceneDelegate.swift */,
+			);
+			path = Supoorts;
+			sourceTree = "<group>";
+		};
+		3508EE6A28E6D32300449431 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE6E28E6D37600449431 /* Information.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3508EE6B28E6D32700449431 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE9228E6D55200449431 /* FirstViewModel.swift */,
+				35430F5C28E80D5800CA6348 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3508EE6C28E6D32C00449431 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE9D28E71E9B00449431 /* ImageLabelView.swift */,
+				3508EE8828E6D45600449431 /* Cells */,
+				3508EE8728E6D44900449431 /* Component */,
+				3508EE8528E6D43B00449431 /* FirstViewController.swift */,
+				3508EE7828E6D3BD00449431 /* ProfileViewController.swift */,
+				3508EE7728E6D3BD00449431 /* MChangeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3508EE6D28E6D34500449431 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE5E28E6D26800449431 /* Assets.xcassets */,
+				3508EE6028E6D26800449431 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3508EE8028E6D3C500449431 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE8128E6D3C500449431 /* BaseViewController.swift */,
+				3508EE8228E6D3C500449431 /* BaseTableViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3508EE8728E6D44900449431 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3508EE8828E6D45600449431 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE8928E6D45600449431 /* FriendTableViewCell.swift */,
+				3508EE8A28E6D45600449431 /* PersonTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3508EE8D28E6D52B00449431 /* Literal */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE8E28E6D53200449431 /* DummyData.swift */,
+			);
+			path = Literal;
+			sourceTree = "<group>";
+		};
+		3508EE9728E6D81800449431 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3508EE9828E6D81800449431 /* ViewModelType.swift */,
+				3508EE9A28E6D8D100449431 /* ViewModelBindableType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7DFA5E16BA8A9C9EBC5001C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1E14ADFD2D1936147360D8F /* Pods-MVVMKaKaoProfile.debug.xcconfig */,
+				08B08E7B386F6FF57115117A /* Pods-MVVMKaKaoProfile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6CF06664373F87F19B427C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B534CBE401B5887054445B6 /* Pods_MVVMKaKaoProfile.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3508EE6628E6D26800449431 /* Build configuration list for PBXNativeTarget "MVVMKaKaoProfile" */;
 			buildPhases = (
+				D0701DD2B0B6D518652C9E70 /* [CP] Check Pods Manifest.lock */,
 				3508EE4E28E6D26700449431 /* Sources */,
 				3508EE4F28E6D26700449431 /* Frameworks */,
 				3508EE5028E6D26700449431 /* Resources */,
+				F5E67798933A0D7DF2FD8E84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +271,80 @@
 			files = (
 				3508EE6228E6D26800449431 /* LaunchScreen.storyboard in Resources */,
 				3508EE5F28E6D26800449431 /* Assets.xcassets in Resources */,
-				3508EE5D28E6D26700449431 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0701DD2B0B6D518652C9E70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMKaKaoProfile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E67798933A0D7DF2FD8E84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMKaKaoProfile/Pods-MVVMKaKaoProfile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMKaKaoProfile/Pods-MVVMKaKaoProfile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMKaKaoProfile/Pods-MVVMKaKaoProfile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3508EE4E28E6D26700449431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3508EE5A28E6D26700449431 /* ViewController.swift in Sources */,
 				3508EE5628E6D26700449431 /* AppDelegate.swift in Sources */,
+				3508EE8C28E6D45600449431 /* PersonTableViewCell.swift in Sources */,
+				3508EE6F28E6D37600449431 /* Information.swift in Sources */,
+				3508EE8328E6D3C500449431 /* BaseViewController.swift in Sources */,
+				3508EE8628E6D43B00449431 /* FirstViewController.swift in Sources */,
+				3508EE7F28E6D3BD00449431 /* ProfileViewController.swift in Sources */,
+				3508EE9E28E71E9B00449431 /* ImageLabelView.swift in Sources */,
 				3508EE5828E6D26700449431 /* SceneDelegate.swift in Sources */,
+				3508EE9328E6D55200449431 /* FirstViewModel.swift in Sources */,
+				3508EE7E28E6D3BD00449431 /* MChangeViewController.swift in Sources */,
+				3508EE9B28E6D8D100449431 /* ViewModelBindableType.swift in Sources */,
+				3508EE8428E6D3C500449431 /* BaseTableViewCell.swift in Sources */,
+				3508EE8F28E6D53200449431 /* DummyData.swift in Sources */,
+				3508EE8B28E6D45600449431 /* FriendTableViewCell.swift in Sources */,
+				35430F5D28E80D5800CA6348 /* ProfileViewModel.swift in Sources */,
+				3508EE9928E6D81800449431 /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3508EE5B28E6D26700449431 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3508EE5C28E6D26700449431 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3508EE6028E6D26800449431 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +472,7 @@
 		};
 		3508EE6728E6D26800449431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E14ADFD2D1936147360D8F /* Pods-MVVMKaKaoProfile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +483,9 @@
 				INFOPLIST_FILE = MVVMKaKaoProfile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +501,7 @@
 		};
 		3508EE6828E6D26800449431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B08E7B386F6FF57115117A /* Pods-MVVMKaKaoProfile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +512,9 @@
 				INFOPLIST_FILE = MVVMKaKaoProfile/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
