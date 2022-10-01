@@ -31,7 +31,7 @@ class ImageLabelView: UIStackView {
 
         return label
     }()
-    
+
     init(symbolName: String, textLabel : String){
         super.init(frame: .zero)
         self.symbolImageView.image = UIImage(named: symbolName)
@@ -47,9 +47,7 @@ class ImageLabelView: UIStackView {
     required init(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
- 
-    
+
     // MARK: - Funcs
     private func render() {
         self.addArrangedSubview(symbolImageView)

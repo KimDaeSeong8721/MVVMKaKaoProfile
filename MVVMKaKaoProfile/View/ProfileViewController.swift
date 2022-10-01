@@ -148,7 +148,6 @@ class ProfileViewController: BaseViewController,ViewModelBindableType {
 
         let input = ProfileViewModel.Input(dismissTapped: dismissButton.rx.tap,
                                            secondButtonTapped: secondButton.rx.tapGesture)
-
         let output = viewModel.transform(input: input)
 
         output.dismissTapped
@@ -168,7 +167,7 @@ class ProfileViewController: BaseViewController,ViewModelBindableType {
 
         output.information
             .subscribe(onNext: { info in
-                self.profileImageView.image = UIImage(named: info.imageName)
+                self.profileImageView.image = info.makeImage()
                 self.nameLabel.text = info.name
                 self.subLabel.text = info.subTitle
             })
@@ -198,6 +197,12 @@ private func configPanGesture(_ sender: UIPanGestureRecognizer) {
             UIView.animate(withDuration: 0.1, animations: {
                 self.view.transform = CGAffineTransform(translationX: 0, y: self.viewTranslation.y)
             })
+        } else {
+            if viewTranslation.y > 0 {
+                UIView.animate(withDuration: 0.1, animations: {
+                    self.view.transform = CGAffineTransform(translationX: 0, y: self.viewTranslation.y)
+                })
+            }
         }
     case .ended:
         // 해당 뷰의 y값이 400보다 작으면(작게 이동 시) 뷰의 위치를 다시 원상복구하겠다. = 즉, 다시 y=0인 지점으로 리셋
